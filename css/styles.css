@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 55px 1fr 230px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* _____________________________ */
+/*           Header              */
+/* _____________________________ */
+
+.Header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Logo {
+    width: 150px;
+    margin-left: 1rem;
+    padding-right: 2rem;
+}
+
+.Header-links {
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    gap: 20px;
+    padding-right: 7.5rem;
+}
+
+
+.Header-items {
+    color: black;
+}
+
+.Header-items--green {
+    color: rgb(121, 154, 65);
+}
+
+.fa.fa-bars {
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+
+/* _____________________________ */
+/*           Gallery             */
+/* _____________________________ */
+
+.Main {
+    grid-area: main;
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.Gallery {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+
+    grid-template-areas:
+    "img1 img2 img3 img4 img5 img5"
+    "img6 img7 img3 img8 img5 img5"
+    
+    "img9 img9 img10 img11 img12 img13"
+    "img9 img9 img14 img15 img12 img16"
+
+    "img17 img17 img18 img19 img20 img21";
+
+    gap: 10px;
+  
+}
+
+.Img1, .Img2, .Img3, .Img4, .Img5, .Img6, .Img7, .Img8, .Img9, .Img10, .Img11, .Img12, .Img13, .Img14, .Img15, .Img16, .Img17, .Img18, .Img19, .Img20, .Img21 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Img1 { grid-area: img1; } .Img2{ grid-area: img2; }
+.Img3 { grid-area: img3; } .Img4 { grid-area: img4; }
+.Img5 { grid-area: img5; } .Img6 { grid-area: img6; }
+.Img7 { grid-area: img7; } .Img8 { grid-area: img8; }
+
+.Img9 { grid-area: img9;   } .Img10 { grid-area: img10; }
+.Img11 { grid-area: img11; } .Img12 { grid-area: img12; }
+.Img13 { grid-area: img13; } .Img14 { grid-area: img14; }
+.Img15 { grid-area: img15; } .Img16 { grid-area: img16; }
+
+.Img17 { grid-area: img17; } .Img18 { grid-area: img18; }
+.Img19 { grid-area: img19; } .Img20 { grid-area: img20; }
+.Img21 { grid-area: img21; }
+
+/* _____________________________ */
+/*           Footer              */
+/* _____________________________ */
+
+.Footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.Footer-logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 7em;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.Footer-txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 0.9rem;
+    color: grey;
+}
+
+.Footer-txt.Footer-txt--sm {
+    display: flex;
+    justify-content: center;
+    font-size: 0.5rem;
+    margin-top: 6rem;
+}
