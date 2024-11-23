@@ -16,9 +16,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* _____________________________ */
-/*           Header              */
-/* _____________________________ */
+/*_________________________
+         HEADER 
+__________________________*/
 
 .Header {
     grid-area: header;
@@ -60,10 +60,9 @@ body {
     margin-right: 2rem;
 } 
 
-
-/* _____________________________ */
-/*           Gallery             */
-/* _____________________________ */
+/*_________________________
+         MAIN 
+__________________________*/
 
 .Main {
     grid-area: main;
@@ -110,9 +109,10 @@ body {
 .Img19 { grid-area: img19; } .Img20 { grid-area: img20; }
 .Img21 { grid-area: img21; }
 
-/* _____________________________ */
-/*           Footer              */
-/* _____________________________ */
+
+/*_________________________
+         FOOTER 
+__________________________*/
 
 .Footer {
     grid-area: footer;
@@ -147,80 +147,3 @@ body {
     margin-top: 6rem;
 }
 
-
-/* _____________________________ */
-/*      Info importante          */
-/* _____________________________ */
-
- /* EL GRID PODRÍA HABERSE HECHO DE OTRA MANERA MÁS SENCILLA Y RÁPIDA CON CSS, seria algo así*/
-
-/* .Gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-  }
-  
-  .Gallery-img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .Gallery-img.Gallery-img--2f {
-    grid-row: span 2;
-  }
-  
-  .Gallery-img.Gallery-img--2c {
-    grid-column: span 2;
-  }
-  
-  .Gallery-img.Galeria-img--4 {
-    grid-column: span 2;
-    grid-row: span 2;
-  }   */
-
-/* HTML */
-  
-  /* <section class="Gallery">
-
-  <img src="img/img1-500x500.jpg" alt="cotton minimalist ilustration" class="Gallery-img"> </img>
-
-  <img src="img/img2-500x500.jpg" alt="letter Q, background brown" class="Gallery-img"> </img>
-
-  <img src="img/img3-500x1000.jpg" alt="herb minimalist illustration" class="Gallery-img Gallery-img--2c"> </img>
-  
-  <img src="img/img4-500x500.jpg" alt="moma word written, orange background" class="Gallery-img"> </img>
-
-  <img src="img/img5-1000x1000.jpg" alt="number 2, brown background" class="Gallery-img Gallery-img--4"> </img>
-
-  <img src="img/img6-500x500.jpg" alt="kata word written, green background" class="Gallery-img"> </img>
-
-  <img src="img/img7-500x500.jpg" alt="beauty is in the eye of the observer" class="Gallery-img"> </img>
-
-  <img src="img/img8-500x500.jpg" alt="flower minimalist illustration" class="Gallery-img"> </img>
-
-  <img src="img/img9-1000x1000.jpg" alt="moth illustration, asiatic letters" class="Gallery-img"> </img>
-
-  <img src="img/img10-500x500.jpg" alt="different numbers, green background" class="Gallery-img Gallery-img--4"> </img>
-
-  <img src="img/img11-500x500.jpg" alt="stay close to nature. It will never fail you" class="Gallery-img"> </img>
-
-  <img src="img/img12-500x1000.jpg" alt="plant ecuali`pt illustration minimalist" class="Gallery-img"> </img>
-
-  <img src="img/img13-500x500.jpg" alt="To walk into nature is to witness a thousand" class="Gallery-img Gallery-img--2c"> </img>
-
-  <img src="img/img14-500x500.jpg" alt="soho word written" class="Gallery-img"> </img>
-  
-  <img src="img/img15-500x500.jpg" alt="leaf brown illustration minimalist" class="Galler-Img"> </img>
-
-  <img src="img/img16-500x500.jpg" alt="soho word written" class="Gallery-img"> </img>
-
-  <img src="img/img17-1000x500.jpg" alt="elaf fruits, word elaf is written minimalist illustration"
-      class="Gallery-img"> </img>
-
-  <img src="img/img18-500x500.jpg" alt="Prome is written, green background" class="Gallery-img"> </img>
-
-  <img src="img/img19-500x500.jpg" alt="The Vow is written" class="Gallery-img Gallery-img--2f"> </img>
-  <img src="img/img20-500x500.jpg" alt="Tromso is written" class="Gallery-img"> </img>
-  <img src="img/img21-500x500.jpg" alt="plant minimalist illustration brown background" class="Gallery-img"> </img>
-
-</section> */
