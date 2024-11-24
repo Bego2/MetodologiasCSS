@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body {
+.Body {
     display: grid;
     grid-template-rows: 55px 1fr 230px;
     grid-template-columns: repeat(3, 1fr);
@@ -52,8 +52,8 @@ __________________________*/
     text-decoration: none;
 }
 
-.Header-a.Header-a--green {
-    color: rgb(121, 154, 65);
+.Header-a--green {
+    color: #455625;
 }
  
  
@@ -145,10 +145,10 @@ __________________________*/
     text-align: center;
     font-size: 0.6rem;
     line-height: 0.9rem;
-    color: grey;
+    color: #575757;
 }
 
-.Footer-txt.Footer-txt--sm {
+.Footer-txt--sm {
     display: flex;
     justify-content: center;
     font-size: 0.5rem;
