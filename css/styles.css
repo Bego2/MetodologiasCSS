@@ -30,6 +30,7 @@ __________________________*/
 }
 
 .Logo {
+    display: flex;
     width: 150px;
     margin-left: 1rem;
     padding-right: 2rem;
